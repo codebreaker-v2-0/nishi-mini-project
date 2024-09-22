@@ -1,0 +1,92 @@
+.login-screen {
+  height: 100vh;
+  width: 100vw;
+  background-color: #1c1a28;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  padding: 24px 48px;
+  border-radius: 28px;
+
+  box-shadow: 6.82px 6.82px 16.37px 0px #51515166 inset,
+    -6.82px -6.82px 20.46px 0px #28262675 inset;
+  background: linear-gradient(
+    142.42deg,
+    rgba(114, 104, 117, 0.21) 1.79%,
+    rgba(117, 116, 117, 0) 100.42%
+  );
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.login-title {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: #fff;
+}
+
+.login-label {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #fff;
+}
+
+.login-input {
+  border-radius: 39px;
+  border: 1px solid #d7dfe9;
+  background-color: #343243;
+  padding: 8px 12px;
+  outline: none;
+  color: #fff;
+}
+
+.login-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.login-checkbox {
+  width: 16px;
+  height: 16px;
+}
+
+.login-checkbox-label {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #fff;
+}
+
+.login-checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.login-button {
+  background-color: #ffbe38;
+  border: none;
+  outline: none;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
